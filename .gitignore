@@ -1,0 +1,17 @@
+# Saída de compilação / IDE
+bin/
+obj/
+.vs/
+*.user
+*.suo
+PrecompiledWeb/
+
+# Nunca versionar configurações reais de servidor
+Web.*.config
+!web/Web.config
+*.local.config
+
+# Diversos
+Thumbs.db
+desktop.ini
+*.log
